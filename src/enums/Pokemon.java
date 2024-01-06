@@ -3,13 +3,13 @@ package enums;
 import java.lang.reflect.Type;
 
 public enum Pokemon {
-    BULBASAUR("Bulbasaur", PokemonType.GRASS, PokemonType.NONE, 45, 49, 49, 65, 45),
-    IVYSAUR,
-    VENUSAUR,
-    CHARMANDER,
-    CHARMELEON,
-    CHARIZARD,
-    SQUIRTLE,
+    BULBASAUR("Bulbasaur", PokemonType.GRASS, PokemonType.POISON, 45, 49, 49, 65, 45),
+    IVYSAUR("Ivysaur", PokemonType.GRASS, PokemonType.POISON, 60, 62, 63, 80, 60),
+    VENUSAUR("Venusaur", PokemonType.GRASS, PokemonType.POISON, 80, 82, 83, 100, 80),
+    CHARMANDER("Charmander", PokemonType.FIRE, PokemonType.NONE, 39, 52, 43, 50, 65),
+    CHARMELEON("Charmeleon", PokemonType.FIRE, PokemonType.NONE, 58, 64, 58, 65, 80),
+    CHARIZARD("Charizard", PokemonType.FIRE, PokemonType.FLYING, 78, 84, 78, 85, 100),
+    SQUIRTLE("Squirtle", PokemonType.WATER, PokemonType.NONE, 44, 48, 65, 50, 43),
     WARTORTLE,
     BLASTOISE,
     CATERPIE,
